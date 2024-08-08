@@ -2,11 +2,13 @@
     background: var(--azul-degrade);
     text-align: center;
     margin-top: 1em;
+    padding: 1em 0;
 }
 
 .topicos__titulo {
     color: var(--branco);
     font-weight: 300;
+    margin-bottom: 1em;
 }
 
 .topicos__lista {
@@ -23,4 +25,7 @@
     color: var(--branco);
     padding: 1em;
     background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px
+    font-weight: 700;
 }
