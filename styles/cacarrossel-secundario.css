@@ -1,4 +1,8 @@
 
+.carrossel__secundario {
+    margin-top: 1em;
+}
+
 .carrossel__titulo__secundario {
     color: var(--laranja);
     background-color: var(--branco);
