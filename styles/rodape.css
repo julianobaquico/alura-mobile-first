@@ -6,3 +6,75 @@ hr {
     background-color: var(--branco);
     padding: 1em;
 }
+
+.lista-rodapé {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodapé {
+        display: block;
+    }
+
+    .lista-rodapé__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .lista-rodapé__link {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .lista-rodapé__titulo {
+        font-size: 14px;
+        color: var(--cinza-claro);
+        
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email::placeholder {
+        font-family: var(--font-principal);
+        color: var(--azul);
+        background: url("../img/Email.svg") no-repeat;
+        padding-left: 2.0em;
+    
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape {
+        padding: 3em 0;
+    }
+}

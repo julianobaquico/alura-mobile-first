@@ -3,6 +3,12 @@
     padding: 1em;
 }
 
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contato__titulo, .contato__texto {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
@@ -37,4 +43,10 @@
     background: url("../img/Email.svg") no-repeat;
     padding-left: 2.0em;
 
+}
+
+@media (min-width: 1400px) {
+    .contato {
+        padding: 3em 20vw;
+    }
 }

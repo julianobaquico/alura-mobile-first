@@ -29,3 +29,9 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media (min-width: 1400px) {
+    .topicos {
+        padding: 3em 30vw;
+    }    
+}
